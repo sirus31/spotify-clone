@@ -1,0 +1,224 @@
+.home {
+  font-size: 20px;
+}
+
+#spotify_brand {
+  display: flex;
+  align-items: center;
+}
+
+#spotify_logo {
+  height: 45px; /* Set the height to 100% of its parent's height */
+  width: 45px; /* Automatically adjust the width to maintain aspect ratio */
+  margin-right: 8px; /* Optional: Add some spacing to the right of the logo */
+}
+
+.search-container {
+  margin-right: 10px;
+  /* border: 2px solid white; */
+  width: 100%;
+  background-color: rgb(7, 138, 143);
+}
+
+.search-container input {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background-color: rgb(7, 138, 143);
+  outline: none;
+}
+
+.search-container input:focus,
+input:active {
+  border-radius: none;
+  background-color: rgb(7, 138, 143);
+  outline: none;
+  box-shadow: none;
+}
+
+.placeholder-icons {
+  border: none;
+  background-color: rgb(7, 138, 143);
+}
+
+.user-profile {
+  margin-left: 5px;
+}
+
+.user-profile img {
+  height: 45px;
+  border-radius: 50%;
+  width: 45px;
+}
+
+.main-left {
+  /* background-color: green; */
+  /* height: ; */
+  /* border-right: 2px solid white; */
+}
+
+.main-right {
+  /* background-color: red; */
+}
+/* .top-3 {
+  margin: 40px 0;
+  height: 200px;
+  background-color: purple;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.top-3 img {
+  height: 100%;
+  width: 300px;
+  transition-duration: 0.5s;
+}
+
+.top-3 img:hover {
+  transform: scale(1.08);
+} */
+.navbar-toggler-icon {
+  color: white;
+}
+.top-3 {
+  /* Set a maximum width for the container */
+  margin: 0 auto; /*Center the container horizontally*/
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.top-3 img {
+  flex-basis: calc(33.33% - 20px); /* Three images per row with 20px spacing */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block; /* Remove any extra space below the image */
+  margin: 0 auto; /* Center the image horizontally */
+  transition-duration: 0.5s;
+}
+
+.top-3 img:hover {
+  transform: scale(1.05);
+}
+
+#container-1 {
+  /* background-color: yellow; */
+  margin: 8px;
+  border-right: 2px solid white;
+}
+
+.section-2 {
+  /* border: 2px solid pink; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px 150px;
+  /* grid-auto-rows: auto; */
+  gap: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.card-for-sec-2 {
+  margin: 5px 5px;
+  padding: 10px 10px;
+  /* max-width: auto;
+  max-height: 150px; */
+  /* border: 4px solid red; */
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: row;
+}
+
+.card-part-1 {
+  position: relative;
+}
+.card-part-1 img {
+  width: 130px;
+  height: 130px;
+  transition-duration: 0.5s;
+}
+
+.card-part-1 i {
+  font-size: 30px;
+  position: absolute;
+  top: 55px;
+  left: 55px;
+  color: #e4dbdb;
+  opacity: 0;
+  transition-duration: 300ms;
+}
+
+.card-part-1 img:hover {
+  transform: scale(1.05);
+}
+
+.card-part-1 i:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.card-part-2 {
+  margin-left: 20px;
+  flex-grow: 1;
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+}
+
+.card-part-2 span {
+  /* align-self: flex-end; */
+  justify-self: flex-end;
+}
+
+.section-3 {
+  padding: 10px 10px;
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling for overflow */
+  white-space: nowrap; /* Prevent cards from wrapping to the next line */
+  gap: 24px;
+}
+
+.card-for-sec-3 img {
+  border-radius: 50%;
+  height: 160px;
+  transition-duration: 0.5s;
+}
+
+.card-for-sec-3 img:hover {
+  transform: scale(1.05);
+}
+
+.section-4 {
+  border: 3px solid green;
+  padding: 8px 8px 0px 8px;
+  display: flex;
+}
+
+.section-5,
+.section-6 {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+  overflow-x: auto; /* Enable horizontal scrolling for overflow */
+  white-space: nowrap; /* Prevent cards from wrapping to the next line */
+}
+
+.latest-english img,
+.latest-hindi img {
+  transition-duration: 0.5s;
+  border-radius: 10px;
+}
+.latest-english img:hover,
+.latest-hindi img:hover {
+  transform: scale(1.04);
+}
+
+.main {
+  background-color: rgb(109, 139, 113);
+  border: 2px solid white;
+}

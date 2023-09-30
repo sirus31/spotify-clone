@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b53cf5debe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid d-flex">
+        <a
+          class="navbar-brand fw-bolder"
+          href="#"
+          id="spotify_brand"
+          style="color: white"
+          ><img
+            id="spotify_logo"
+            src="./assets/spotify_logo.png"
+            alt="logo"
+          />Spotify</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active fw-bolder home"
+                aria-current="page"
+                href="#"
+                style="color: white"
+                >Favourites</a
+              >
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <div class="search-container d-flex align-items-center">
+              <i
+                class="fa-brands fa-searchengin"
+                style="color: white; padding-left: 5px"
+              ></i>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search.."
+                aria-label="Search"
+              />
+              <i
+                class="fa-solid fa-microphone"
+                style="color: white; padding-right: 5px"
+              ></i>
+            </div>
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="user-profile">
+        <a href="#"><img src="./assets/profile.JPG" alt="profile" /></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-center main">
+      <div class="row">
+        <!-- left content -->
+        <div class="col-9 main-left" id="container-1">
+          <!-- <section class="container-lg" id="container-1"> -->
+          <div class="container top-3">
+            <img
+              src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img-3.jpeg"
+              alt="top-1"
+            />
+            <img
+              src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img-2.jpeg"
+              alt="top-2"
+            />
+            <img
+              src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img-1.jpeg"
+              alt="top-3"
+            />
+          </div>
+
+          <h1
+            class="display-6 fw-bolder"
+            style="display: flex; justify-content: flex-start"
+          >
+            Latest Release
+          </h1>
+
+          <section class="section-2">
+            <div class="card-for-sec-2">
+              <div class="card-part-1">
+                <img
+                  src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img12.jpeg"
+                  alt="part-4"
+                />
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="card-part-2">
+                <p class="h4">Onism<br />Aug 11,2017</p>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.48</span>
+              </div>
+            </div>
+            <div class="card-for-sec-2">
+              <div class="card-part-1">
+                <img
+                  src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img12.jpeg"
+                  alt="part-4"
+                />
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="card-part-2">
+                <p class="h4">Onism<br />Aug 11,2017</p>
+                <span>...4.48</span>
+              </div>
+            </div>
+            <div class="card-for-sec-2">
+              <div class="card-part-1">
+                <img
+                  src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img12.jpeg"
+                  alt="part-4"
+                />
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="card-part-2">
+                <p class="h4">Onism<br />Aug 11,2017</p>
+                <span>...4.48</span>
+              </div>
+            </div>
+            <div class="card-for-sec-2">
+              <div class="card-part-1">
+                <img
+                  src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img12.jpeg"
+                  alt="part-4"
+                />
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="card-part-2">
+                <p class="h4">Onism<br />Aug 11,2017</p>
+                <span>...4.48</span>
+              </div>
+            </div>
+            <div class="card-for-sec-2">
+              <div class="card-part-1">
+                <img
+                  src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img12.jpeg"
+                  alt="part-4"
+                />
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="card-part-2">
+                <p class="h4">Onism<br />Aug 11,2017</p>
+                <span>...4.48</span>
+              </div>
+            </div>
+            <div class="card-for-sec-2">
+              <div class="card-part-1">
+                <img
+                  src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img12.jpeg"
+                  alt="part-4"
+                />
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <div class="card-part-2">
+                <p class="h4">Onism<br />Aug 11,2017</p>
+                <span>...4.48</span>
+              </div>
+            </div>
+          </section>
+          <!-- section 3 -->
+          <h1
+            class="display-6 fw-bolder"
+            style="display: flex; justify-content: flex-start"
+          >
+            Popular Artists
+          </h1>
+          <section class="section-3">
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+            <div class="card-for-sec-3">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img21.jpeg"
+                class="card-img-top"
+                alt="sec-3-pics"
+              />
+
+              <h3>Ed Sheeran</h3>
+            </div>
+          </section>
+
+          <!-- section 4 pending -->
+
+          <section class="section-4">
+            <div class="genre">
+              <div style="width: 200px; height: 200px; margin-bottom: 5px">
+                <img
+                  src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                  alt="fixed"
+                />
+                <h3 style="font-style: italic">Music</h3>
+              </div>
+            </div>
+            <div class="sliding-genre">
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+              <div style="width: 200px; height: 200px">
+                <img
+                  src="https://images.unsplash.com/photo-1520170975578-25bd5217bf3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBnZW5yZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
+                <h4 style="font-style: italic">Pop</h4>
+              </div>
+            </div>
+          </section>
+          <!-- section 5 -->
+
+          <h1
+            class="display-6 fw-bolder"
+            style="display: flex; justify-content: flex-start; margin-top: 20px"
+          >
+            Latest English
+          </h1>
+          <section class="section-5">
+            <div class="latest-english">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img31.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img31.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img31.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img31.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img31.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img31.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-english">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img31.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+          </section>
+
+          <!-- section 6 -->
+
+          <h1
+            class="display-6 fw-bolder"
+            style="display: flex; justify-content: flex-start; margin-top: 20px"
+          >
+            Latest Hindi
+          </h1>
+          <section class="section-6">
+            <div class="latest-hindi">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img46.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-hindi">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img46.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-hindi">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img46.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-hindi">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img46.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-hindi">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img46.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-hindi">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img46.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+            <div class="latest-hindi">
+              <img
+                src="https://64fb40e8064a1009704554dd--resplendent-puppy-b0c2bc.netlify.app/images/img46.jpeg"
+                alt=""
+              />
+              <h5 class="h5 text-light">Titanium</h5>
+              <p class="text-light">Aug 11,2017</p>
+            </div>
+          </section>
+          <!-- </section> -->
+        </div>
+
+        <!-- right content -->
+        <div class="col-3 main-right" id="container-2">
+          <!-- <div class="container-lg" id="container-2"> -->
+          <div class="section-7">
+            <h1
+              class="display-6 fw-bolder"
+              style="
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 20px;
+              "
+            >
+              Queue
+            </h1>
+
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="queue-dropdown"
+              >
+                Queue
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <section class="section-8">
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-elements">
+              <h6>01</h6>
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11c2ljfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+
+              <p>
+                Mirage<br />
+                <span id="artist-name">Else</span>
+              </p>
+
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </section>
+
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
